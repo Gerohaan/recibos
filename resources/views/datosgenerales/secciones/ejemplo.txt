@@ -1,0 +1,39 @@
+ <div class="col-sm-12 col-xs-12 col-md-12 col-lg-12">
+                      
+                     
+                  
+                        <div class="col-sm-12 col-xs-12 col-md-5 col-lg-5">
+                                <div v-for="denominacion in denominacionConstancia">
+                                            
+                                            <div class="card">
+                                            
+                                                <form action="">
+                                                
+                                                <div class="card-body">
+                                                    <h5 class="card-title"><strong>Constancia de Trabajo</strong><p> @{{ denominacion.den }} </p> </h5>
+                                                    <p class="card-text">
+                                                    <label for="tipo"><strong>Tipo de Constancia</strong></label>
+                                                    <select name="" id="" class="form-control">
+                                                    <option value="">Seleccione</option>
+                                                    <option value="1">Normal</option>
+                                                    <option value="2">Sueldo Base</option>
+                                                    <option value="3">Sueldo Integral</option>
+                                                    </select>
+                                                    </p>
+                                                    
+                                                    <button type="button" @click="mostrarConstancia" class="btn btn-primary">Consultar</button>
+                                                </div>
+                                                
+                                                </form>
+                                            
+                                            </div>
+
+                                        
+                                </div>
+                            </div>
+
+                        
+
+                  
+
+</div>
