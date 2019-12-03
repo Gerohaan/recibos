@@ -35,7 +35,7 @@
                 <div class="row">
                     <div class="col-lg-3 col-sm-3 col-md-3 col-xs-12">
                         <div class="form-group">
-                             <label for="Cedula">Cédula</label>
+                             <label for="Cedula">Numero de Cédula</label>
                              <input type="number" placeholder="ej:19188435" name="Cedula" v-model.number="numCedula" class="form-control">
                         </div>
                     </div>
